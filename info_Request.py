@@ -119,7 +119,7 @@ def where_on_bus_generate(markers,labels):
 
 def city_code(address): #地理编码
 
-    url = "https://restapi.amap.com/v3/geocode/geo?key=13eb059875a5ea8c9a9e88bd37ac456f&address=" + address
+    url = "https://restapi.amap.com/v3/geocode/geo?key=" + k.gaode_key + "&address=" + address
 
     payload={}
     headers = {}
@@ -127,3 +127,4 @@ def city_code(address): #地理编码
     response = requests.request("POST", url, headers=headers, data=payload)
 
     return(response.text)
+
