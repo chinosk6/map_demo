@@ -119,7 +119,7 @@ def where_on_bus_generate(markers,labels):
 
 def city_code(address): #地理编码
 
-    url = "https://restapi.amap.com/v3/geocode/geo?key=13eb059875a5ea8c9a9e88bd37ac456f&address=" + address
+    url = "https://restapi.amap.com/v3/geocode/geo?key=" + k.gaode_key + "&address=" + address
 
     payload={}
     headers = {}
@@ -128,5 +128,3 @@ def city_code(address): #地理编码
 
     return(response.text)
 
-
-#print(tx_sig("https://apis.map.qq.com/ws/staticmap/v2/?center=39.8802147,116.415794&zoom=12&scale=2&maptype=roadmap&key=FYHBZ-NZYCU-VBDV4-BIX7S-GHXZQ-BKBUL"))
