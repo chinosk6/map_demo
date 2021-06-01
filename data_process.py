@@ -96,5 +96,3 @@ def get_citycode(address):
     citycode = j['geocodes'][0]['citycode']
 
     return(citycode)
-
-#print(get_route("103.816172,30.688095","103.886094,30.800282"))
