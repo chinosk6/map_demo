@@ -127,6 +127,3 @@ def city_code(address): #地理编码
     response = requests.request("POST", url, headers=headers, data=payload)
 
     return(response.text)
-
-
-#print(tx_sig("https://apis.map.qq.com/ws/staticmap/v2/?center=39.8802147,116.415794&zoom=12&scale=2&maptype=roadmap&key=FYHBZ-NZYCU-VBDV4-BIX7S-GHXZQ-BKBUL"))
