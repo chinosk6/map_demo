@@ -16,6 +16,9 @@ def gnenrate_where_on_bus(ori_city,ori_locate):  #上车点推荐 "2"
 
     print(stat)
 
+#gnenrate_route("成都市","火星","成都市","地球")
+#sys.exit()
+
 msg = sys.argv #文件名 项目 参数1 参数2...
 func = msg[1]
 
@@ -52,4 +55,4 @@ if(len(msg) == 7): #7 - 2 = 5 个参数
 
 print("unexpected parameters")
 #gnenrate_where_on_bus("成都市","xx路xx号")
-#gnenrate_route("成都市","奇点","成都市","目的地")
+#gnenrate_route("成都市","火星","成都市","地球")

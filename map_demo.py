@@ -15,5 +15,5 @@ def gnenrate_where_on_bus(ori_city,ori_locate):  #上车点推荐
 
     print(stat)
 
-#gnenrate_where_on_bus("成都市","xx路xx号")
+#gnenrate_where_on_bus("北京市","故宫")
 #gnenrate_route("成都市","火星","北京市","八达岭长城")

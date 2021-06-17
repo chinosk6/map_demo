@@ -29,6 +29,11 @@ def get_lonlat(lname,lcity):  #获取经纬度，无交互，默认第一个
         l_lola[str(num)] = p['location']
         num = num +1
     #print(l_lola['0'])
+    wpt = poi[0]
+    if(wpt['adname'] == wpt['address']):
+        print(wpt['pname'] + ' ' + wpt['cityname'] + ' ' + wpt['adname'] + ' ' + wpt['name'])
+    else:
+        print(wpt['pname'] + ' ' + wpt['cityname'] + ' ' + wpt['adname'] + ' ' + wpt['address'] + ' ' + wpt['name'])
     return(l_lola['0'])
 
 
@@ -96,5 +101,3 @@ def get_citycode(address):
     citycode = j['geocodes'][0]['citycode']
 
     return(citycode)
-
-#print(get_route("103.816172,30.688095","103.886094,30.800282"))

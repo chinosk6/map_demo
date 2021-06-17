@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "map_cs": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Y7000\\Desktop\\sdk_v2.6.5\\Python\\map_demo"
+    }
+  }
+}
