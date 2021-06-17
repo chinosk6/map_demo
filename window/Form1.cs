@@ -37,7 +37,7 @@ namespace map_cs
             //ret = My_tools.Exec.ExecCMD(execmsg);
             ret = My_tools.Exec.RunCMDCommand(execmsg);
             string[] retg = ret.Split("\n");
-            if(retg.Length >= 3)
+            if(retg.Length >= 4)
             {
                 filename = retg[3];
                 retstr = "起：" + retg[1] + "\n终：" + retg[2];
@@ -57,7 +57,7 @@ namespace map_cs
             }
             else
             {
-                MessageBox.Show(ret);
+                MessageBox.Show("处理异常:" + ret);
             }
             //MessageBox.Show(filename);
         }
@@ -104,7 +104,7 @@ namespace map_cs
             //ret = My_tools.Exec.ExecCMD(execmsg);
             ret = My_tools.Exec.RunCMDCommand(execmsg);
             string[] retg = ret.Split("\n");
-            if (retg.Length >= 2)
+            if (retg.Length >= 3)
             {
                 filename = retg[2];             
             }
@@ -120,7 +120,7 @@ namespace map_cs
             }
             else
             {
-                MessageBox.Show(ret);
+                MessageBox.Show("处理异常:" + ret);
             }
             //MessageBox.Show(filename);
         }

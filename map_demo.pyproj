@@ -29,6 +29,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="map_cs.exe" />
+    <Content Include="README.md" />
     <Content Include="window\.vs\map_cs\DesignTimeBuild\.dtbcache.v2" />
     <Content Include="window\.vs\map_cs\v16\.suo" />
     <Content Include="window\bin\Debug\net5.0-windows\map_cs.deps.json" />
