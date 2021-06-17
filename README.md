@@ -5,7 +5,7 @@
  - [.NET 5.0 Desktop Runtime (v5.0.0)][1]
  - [Python 3][2]
  - Python request
-   安装python环境后,在命令提示符输入  
+   安装python环境后,在命令提示符输入   
  ```
  pip install request
  ```
